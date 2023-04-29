@@ -1,0 +1,880 @@
+/* Large divaice  */
+@media (min-width:992px) and (max-width:1199.98px) {
+    /* home page responsive start  */
+        #about_area .about_me .my_info h5 {
+            font-size: 12px;
+            color: var(--paragraph-color);
+            
+        }
+        #about_area .about_me .my_info h1 {
+            font-size: 18px;
+            color: var(--common-white);
+            text-transform: uppercase;
+            padding: 10px 0;
+        }
+        #about_area .about_me .my_info p {
+            font-size: 12px;
+            color: var(--paragraph-color);
+        }
+        #about_area .about_info .service .img img {
+            width: 52px;
+            text-align: center;
+            padding: 0 5px;
+        }
+        #about_area .about_info .social_media a i {
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            line-height: 40px;
+            margin: 10px;
+        }
+    /* home page responsive end  */
+        /* about page responsive start  */
+        .page_info p {
+            color: var(--paragraph-color);
+            font-size: 10px;
+        }
+    
+        .page_info h2 {
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+    
+        #about_me h1 {
+            color: var(--common-white);
+            font-size: 50px;
+            font-weight: 600;
+            text-align: center;
+            padding: 0 0 10px;
+        }
+    
+        .social_media a i {
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            line-height: 40px;
+            margin: 10px;
+        }
+    
+        .call_to_action h3 {
+            padding: 35px 0 0;
+        }
+    
+        .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 48px;
+            padding-bottom: 20px;
+        }
+    
+        /* about page responsive end  */
+        /* contact page responsive start  */
+        .social_media a i {
+            height: 30px;
+            width: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            margin: 9px;
+        }
+    
+        /* contact page responsive end  */
+        /* offer page responsive start */
+        #offer .page_profile .icon img {
+            width: 25px;
+        }
+    
+        .box {
+            padding: 20px;
+        }
+    
+        #offer .offers.box {
+            width: 247px;
+            height: 475px;
+        }
+    
+        #offer .page_profile .icons_name h4 {
+            font-size: 15px;
+            padding-left: 7px;
+        }
+    
+        /* offer page responsive emd */
+        /* more about me  page responsive start  */
+        #more_about .social_media h4 {
+            font-size: 18px;
+        }
+    
+        /* more about me  page responsive end */
+}
+
+    
+    
+    
+
+/* larg divaice end  */
+/* mediam divaice start  */
+
+@media (min-width:768px) and (max-width:991.98px) {
+    /* home page responsive start  */
+        #about_area .about_me .my_info h5 {
+            font-size: 16px;
+            color: var(--paragraph-color);
+        }
+    
+        #about_area .about_me .my_info h1 {
+            font-size: 26px;
+            padding: 10px 0;
+        }
+        #about_area .about_me .my_info p {
+            font-size: 16px;
+            color: var(--paragraph-color);
+        }
+        #about_area .about_info  .more_about_me_pad{
+            padding: 20px 0;
+            justify-content: center;
+
+        }
+    
+        #about_area .about_info .service .img img {
+            width: 30px;
+            text-align: center;
+            padding: 0px 0px 0px 0px;
+        }
+    
+        #about_area .about_info .social_media a i {
+            height: 50px;
+            width: 50px;
+            font-size: 30px;
+            line-height: 50px;
+            margin: 2px;
+        }
+        #about_area .about_info .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 34px;
+            width: 36px;
+        }
+        /* home page responsive end  */
+        /* about page responsive start  */
+        .page_info p {
+            color: var(--paragraph-color);
+            font-size: 14px;
+        }
+    
+        .page_info h2 {
+            font-size: 24px;
+            padding-bottom: 15px;
+        }
+    
+        .page_info h1 {
+            color: var(--common-white);
+            font-size: 50px;
+            font-weight: 600;
+            text-align: center;
+            padding: 0 0 10px;
+        }
+        #about_me .work_experience .section_contant h4 {
+            color: var(--common-white);
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+        
+        #about_me .work_experience .section_contant p {
+            color: var(--paragraph-color);
+            font-size: 14px;
+            text-transform: capitalize;
+            padding: 3px 0;
+        
+        }
+    
+        #about_me .social_media a i {
+	    height: 30px;
+	    width: 30px;
+	    font-size: 15px;
+	    line-height: 30px;
+	    margin: 2px;
+        } 
+        #about_me .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 34px;
+            width: 25px;
+        }
+        .call_to_action h3 {
+            font-size: 25px;
+        }
+        
+        .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 48px;
+            padding-bottom: 20px;
+        }
+        
+        .more_about_me h3 {
+            font-size: 20px;
+        }
+        /* about page responsive end  */
+        /* work page reponsive start  */
+        #protfolio .protfolio .protfolio_info h2 a {
+            font-size: 20px;
+        }
+        #protfolio .protfolio .protfolio_info p {
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        /* work page reponsive start  */
+        /* contact page responsive start  */
+        
+        #contact  h3 {
+            text-align: center;
+        }
+        #contact .md_mid{
+            justify-content: center;
+        }
+        #contact .md_mid h3{
+            
+            text-align: start;
+        }
+        #contact .shadow_box img {
+	        left: 35px;
+	        width: 30px;
+        } 
+        #contact .box {
+            padding: 10px;
+        }
+        /* contact page responsive end  */
+        /* offer page responsive start */
+        #offer .page_profile .skills {
+            padding: 10px 0 25px;
+        }
+        #offer .page_profile .icon img {
+            width: 40px;
+        }
+    
+        
+    
+        #offer .offers.box {
+            width: 247px;
+            height: 475px;
+        }
+    
+        #offer .page_profile .icons_name h4 {
+            font-size: 26px;
+            padding-left: 20px;
+        }
+        #offer .social_media a i {
+            height: 30px;
+            width: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            margin: 2px;
+        }
+        #offer .offers.box {
+            width: 477px;
+            height: 238px;
+        }
+        #offer h1 {
+            font-size: 60px;
+            padding-bottom: 10px;
+        }
+        #offer .call_to_action .overlyh_img {
+            left: 25px;
+            width: 25px;
+        }
+        /* offer page responsive emd */
+        /* more about me  page responsive start  */
+        #more_about .social_media h4 {
+	        font-size: 30px;
+        }
+        #more_about h2 {
+            font-size: 45px;
+            padding-bottom: 26px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        #more_about  .work_experience{
+            text-align: center;
+        }
+        #more_about .work_experience .section_heading h4 {
+            font-size: 40px;
+            padding: 30px 0 15px;
+        }
+    
+        /* more about me  page responsive end */
+
+}
+/* mediam divaice end  */
+/* small divaice start  */
+@media (min-width:576px) and (max-width:767.98px) {
+    /* home page responsive start  */
+        #about_area .about_me .my_info h5 {
+            font-size: 12px;
+            color: var(--paragraph-color);
+        }
+    
+        #about_area .about_me .my_info h1 {
+            font-size: 18px;
+            padding: 10px 0;
+        }
+    
+        #about_area .about_me .my_info p {
+            font-size: 12px;
+            color: var(--paragraph-color);
+        }
+    
+        #about_area .about_info .more_about_me_pad {
+            padding: 20px 0;
+            justify-content: center;
+    
+        }
+    
+        #about_area .about_info .service .img img {
+            width: 30px;
+            text-align: center;
+            padding: 0px 0px 0px 0px;
+        }
+    
+        #about_area .about_info .social_media a i {
+            height: 30px;
+            width: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            margin: 2px;
+        }
+        #about_area .about_info .exparience h2 {
+            font-size: 20px;
+        }
+        #about_area .about_info .exparience p {
+            color: var(--paragraph-color);
+            font-size: 10px;
+        }
+    
+        #about_area .about_info .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 34px;
+            width: 15px;
+        }
+        #about_area .about_info .call_to_action h3 {
+            font-size: 20px;
+        }
+    
+        /* home page responsive end  */
+        /* about page responsive start  */
+        .page_info p {
+            color: var(--paragraph-color);
+            font-size: 14px;
+        }
+    
+        .page_info h2 {
+            font-size: 24px;
+            padding-bottom: 15px;
+        }
+    
+        #about_me h1 {
+            color: var(--common-white);
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+        }
+    
+        #about_me .work_experience .section_contant h4 {
+            color: var(--common-white);
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+    
+        #about_me .work_experience .section_contant p {
+            color: var(--paragraph-color);
+            font-size: 14px;
+            text-transform: capitalize;
+            padding: 3px 0;
+    
+        }
+    
+        #about_me .social_media a i {
+            height: 30px;
+            width: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            margin: 2px;
+        }
+    
+        #about_me .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 34px;
+            width: 15px;
+        }
+    
+        .call_to_action h3 {
+            font-size: 25px;
+            text-align: center;
+        }
+    
+        .call_to_action .overlyh_img {
+            position: absolute;
+            top: 0;
+            left: 48px;
+            padding-bottom: 20px;
+        }
+    
+        .more_about_me h3 {
+            font-size: 20px;
+        }
+    
+        /* about page responsive end  */
+        /* work page reponsive start  */
+        #protfolio .protfolio .protfolio_info h2 a {
+            font-size: 20px;
+        }
+    
+        #protfolio .protfolio .protfolio_info p {
+            font-size: 12px;
+            padding: 10px 0;
+        }
+    
+        /* work page reponsive start  */
+        /* contact page responsive start  */
+        #contact .social_media a i {
+            height: 30px;
+            width: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            margin: 9px;
+        }
+    
+        #contact h3 {
+            text-align: center;
+        }
+    
+        #contact .md_mid {
+            justify-content: center;
+        }
+    
+        #contact .md_mid h3 {
+    
+            text-align: start;
+        }
+    
+        #contact .shadow_box img {
+            left: 35px;
+            width: 30px;
+        }
+    
+        /* contact page responsive end  */
+        /* offer page responsive start */
+        #offer .page_profile .skills {
+            padding: 10px 0 25px;
+        }
+    
+        #offer .page_profile .icon img {
+            width: 40px;
+        }
+    
+        .box {
+            padding: 20px;
+        }
+    
+        #offer .offers.box {
+            width: 247px;
+            height: 475px;
+        }
+    
+        #offer .page_profile .icons_name h4 {
+            font-size: 26px;
+            padding-left: 20px;
+        }
+    
+        #offer .social_media a i {
+            height: 30px;
+            width: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            margin: 2px;
+        }
+    
+        #offer .offers.box {
+            width: 477px;
+            height: 238px;
+        }
+    
+        #offer h1 {
+            font-size: 60px;
+            padding-bottom: 10px;
+        }
+    
+        #offer .call_to_action .overlyh_img {
+            left: 25px;
+            width: 25px;
+        }
+    
+        /* offer page responsive emd */
+        /* more about me  page responsive start  */
+        #more_about .social_media h4 {
+            font-size: 30px;
+        }
+    
+        #more_about h2 {
+            font-size: 45px;
+            padding-bottom: 26px;
+            text-align: center;
+            padding-top: 10px;
+        }
+    
+        #more_about .work_experience {
+            text-align: center;
+        }
+    
+        #more_about .work_experience .section_heading h4 {
+            font-size: 40px;
+            padding: 30px 0 15px;
+        }
+    
+        /* more about me  page responsive end */
+}
+/* small divaice end  */
+/* extra small divaice start  */
+@media (max-width:575.98px) {
+        /* home page responsive start  */
+            #about_area {
+                margin: 50px 12px 80px;
+            }
+            #about_area .about_me .my_info h5 {
+                font-size: 12px;
+                color: var(--paragraph-color);
+                padding: 15px 0 0;
+            }
+        
+            #about_area .about_me .my_info h1 {
+                font-size: 18px;
+                padding: 10px 0;
+            }
+        
+            #about_area .about_me .my_info p {
+                font-size: 12px;
+                color: var(--paragraph-color);
+            }
+            #about_area .about_info .more_about_me h4 {
+               font-size: 12px;
+            }
+            #about_area .about_info .more_about_me h3 {
+               font-size: 18px;
+            }
+            .box_contant h4 {
+               font-size: 12px;
+            }
+            .box_contant h3 {
+               font-size: 18px;
+            }
+            #about_area .about_info .more_about_me_pad {
+                padding: 20px 0;
+                justify-content: center;
+        
+            }
+        
+            #about_area .about_info .service .img img {
+                width: 30px;
+                text-align: center;
+                padding: 0px 0px 0px 0px;
+            }
+        
+            #about_area .about_info .social_media a i {
+                height: 30px;
+                width: 30px;
+                font-size: 15px;
+                line-height: 30px;
+                margin: 2px;
+            }
+        
+            #about_area .about_info .exparience h2 {
+                font-size: 20px;
+            }
+        
+            #about_area .about_info .exparience p {
+                color: var(--paragraph-color);
+                font-size: 10px;
+            }
+        
+            #about_area .about_info .call_to_action .overlyh_img {
+                position: absolute;
+                top: 0;
+                left: 34px;
+                width: 15px;
+            }
+        
+            #about_area .about_info .call_to_action h3 {
+                font-size: 20px;
+            }
+        
+            /* home page responsive end  */
+            /* about page responsive start  */
+            #about_me {
+               padding: 10px 10px 60px;
+            }
+            .page_info p {
+                color: var(--paragraph-color);
+                font-size: 14px;
+            }
+        
+            .page_info h2 {
+                font-size: 24px;
+                padding-bottom: 15px;
+            }
+        
+            #about_me h1 {
+               font-size: 20px;
+            }
+        
+            #about_me .work_experience .section_contant h4 {
+                color: var(--common-white);
+                font-size: 12px;
+                text-transform: capitalize;
+            }
+            #about_me .page_info h2 {
+                font-size: 14px;
+                text-align: center;
+            }
+            #about_me .page_info p {
+                color: var(--paragraph-color);
+                font-size: 12px;
+                /* text-align: center; */
+            }
+        
+            #about_me .work_experience .section_contant p {
+                color: var(--paragraph-color);
+                font-size: 12px;
+                text-transform: capitalize;
+                padding: 1px 0;
+        
+            }
+        
+            #about_me .social_media a i {
+                height: 30px;
+                width: 30px;
+                font-size: 15px;
+                line-height: 30px;
+                margin: 2px;
+            }
+        
+            #about_me .call_to_action .overlyh_img {
+                position: absolute;
+                top: 0;
+                left: 34px;
+                width: 15px;
+            }
+        
+            .call_to_action h3 {
+                font-size: 25px;
+                text-align: center;
+            }
+        
+            .call_to_action .overlyh_img {
+                position: absolute;
+                top: 0;
+                left: 48px;
+                padding-bottom: 20px;
+            }
+            .more_about_me h4{
+                font-size: 12px;
+
+            }
+            .more_about_me h3 {
+                font-size: 16px;
+            }
+        
+            /* about page responsive end  */
+            /* work page reponsive start  */
+            #protfolio{
+                padding: 20px 10px;
+            }
+            #protfolio .protfolio .protfolio_info h2 a {
+                font-size: 20px;
+            }
+        
+            #protfolio .protfolio .protfolio_info p {
+                font-size: 12px;
+                padding: 10px 0;
+            }
+        
+            /* work page reponsive start  */
+            /* contact page responsive start  */
+           #contact {
+               padding: 10px 0 100px;
+           }
+            #contact .social_media a i {
+                height: 30px;
+                width: 30px;
+                font-size: 15px;
+                line-height: 30px;
+                margin: 9px;
+            }
+           #contact .contact_info .contact_info_contant i {
+               font-size: 14px;
+               color: var(--common-white);
+               display: inline-block;
+               padding: 5px;
+           }
+           #contact h3 {
+               color: var(--common-white);
+               font-size: 20px;
+               text-transform: uppercase;
+               font-family: var(--secondary-font);
+           }
+            #contact .contact_info .contact_info_contant .box {
+                border-radius: 4px;
+                padding: 28px;
+                display: block;
+                margin: auto;
+            }
+            #contact .contact_info .contact_info_contant_info {
+                padding-left: 10px;
+                text-align: center;
+                display: block;
+                margin: auto;
+            }
+
+           #contact .contact_info {
+               padding-top: 10px;
+               padding-bottom: 15px;
+           }
+           #contact .contact_info .contact_info_contant_info p {
+               font-size: 24px;
+               padding-top: 12px;
+           }
+           #contact .contact_info .contact_info_contant_info h4 a {
+               font-size: 22px;
+               color: var(--common-white);
+           }
+        
+            #contact h3 {
+                text-align: center;
+            }
+        
+            #contact .md_mid {
+                justify-content: center;
+            }
+        
+            #contact .md_mid h3 {
+        
+                text-align: start;
+            }
+        
+            #contact .shadow_box img {
+                left: 35px;
+                width: 30px;
+            }
+           .box_contant h4 {
+               font-size: 11px;
+           }
+        
+            /* contact page responsive end  */
+            /* offer page responsive start */
+           #offer {
+               padding: 15px 10px 150px;
+           }
+            #offer .page_profile .skills {
+                padding: 10px 0 25px;
+            }
+        
+            #offer .page_profile .icon img {
+                width: 40px;
+            }
+        
+            .box {
+                padding: 20px;
+            }
+        
+            #offer .offers.box {
+                width: 247px;
+                height: 475px;
+            }
+        
+            #offer .page_profile .icons_name h4 {
+                font-size: 22px;
+                padding-left: 20px;
+            }
+            #offer .social_media a{
+                margin: 5px;
+            }
+           #offer .social_media a i {
+               height: 40px;
+               width: 40px;
+               font-size: 18px;
+               line-height: 40px;
+               margin: 2px;
+               text-align: center;
+               display: block;
+               margin: auto;
+               /* padding: ; */
+               /* margin: 10px; */
+           }
+           #offer .offers.box {
+               width: 485px;
+               height: 500px;
+               text-align: start;
+           }
+        
+            #offer h1 {
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+        
+            #offer .call_to_action .overlyh_img {
+                left: 25px;
+                width: 25px;
+            }
+        
+            /* offer page responsive emd */
+            /* more about me  page responsive start  */
+            #more_about{
+                padding: 30px 10px;
+            }
+
+          #more_about .fixed_box {
+              height: 630px;
+          }
+            #more_about .social_media h4 {
+                font-size: 18px;
+            }
+            #more_about .social_media .input-group a {
+                margin-top: 30px;
+            }
+        
+            #more_about h2 {
+                font-size: 24px;
+                padding-bottom: 26px;
+                text-align: center;
+                padding-top: 10px;
+            }
+        
+            #more_about .work_experience {
+                text-align: center;
+            }
+           #more_about .work_experience .section_contant p {
+               font-size: 12px;
+           }
+           #more_about .work_experience .section_contant h4 {
+               font-size: 14px;
+               color: var(--sky-blue);
+               text-transform: capitalize;
+           }
+        
+            #more_about .work_experience .section_heading h4 {
+                font-size: 25px;
+                padding: 30px 0 15px;
+            }
+           #more_about .section_info {
+               /* padding-left: 80px; */
+               padding: 0px;
+               text-align: center;
+           }
+           #more_about .section_info p{
+               font-size: 12px;
+           }
+          #more_about .skill_avg .skill_in_avg {
+              padding: 10px 0;
+          }
+            /* more about me  page responsive end */
+}
+/* extra small divaice end  *

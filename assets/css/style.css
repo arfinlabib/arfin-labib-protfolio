@@ -1,0 +1,674 @@
+/*
+Theme  Name: Aytor
+Version: 1.0.0
+Author: Aytor
+Description:
+
+===================
+Table of Content
+-----------------------
+1) Common CSS
+
+*/
+
+/* Common Section Css Start */
+:root {
+    --primary-font: 'Source Code Pro', monospace;
+    --secondary-font: 'Arvo', serif;
+    --primary-color:  linear-gradient(90deg, rgba(94, 104, 121, 1) 0%, rgba(9, 20, 22, 1) 100%);
+    --secandary-primary-color: linear-gradient(90deg, rgba(41, 49, 51, 1) 0%, rgba(29, 38, 33, 1) 49%);
+    --common-white: #FFFFFF;
+    --common-black: #000000;
+    --sky-blue: #2fe1ec;
+    --paragraph-color: #a5a5a5bb;
+    --dark:rgb(41, 41, 41);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+span,
+small {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+
+p {
+    font-family: var(--secondary-font);
+}
+body{
+    font-family: var(--primary-font);
+    background: var(--dark);
+    font-family: var(--primary-font);
+}
+.box{
+    background: linear-gradient(138deg, rgba(0, 0, 0, 1) 0%, rgba(43, 37, 37, 1) 99%);
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0px 0px 50px rgba(21, 26, 50, 0.1);
+    transform: translateY(1);
+    transition: .5s;
+    margin: 10px;
+
+}
+.box:hover{
+    transform: scale(.9);
+}
+.box_contant {
+    
+}
+.box_contant h4 {
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.box_contant h3 {
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: capitalize;
+}
+ .social_media a i {
+    color: var(--common-white);
+    height: 60px;
+    width: 60px;
+    font-size: 50;
+    border-radius: 50%;
+    background: linear-gradient(138deg, rgb(240, 233, 233) 0%, rgba(13, 11, 11, 1) 30%, rgba(0, 0, 0, 1) 91%);
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    transition: .8s;
+    margin: 5px;
+    text-align: center;
+}
+.social_media a:hover i {
+    background: var(--common-white);
+    color: var(--common-black);
+}
+.call_to_action {
+    position: relative;
+}
+ .call_to_action .overlyh_img {
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+.call_to_action h3 {
+    font-size: 40px;
+    color: var(--common-white);
+    color: var(--sky-blue);
+    font-weight: 600;
+}
+.more_about_me h4 {
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.more_about_me h3 {
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.page_info h1 {
+    color: var(--common-white);
+    font-size: 72px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page_info h2 {
+    color: var(--common-white);
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    padding-bottom: 20px;
+}
+
+.page_info p {
+    color: var(--paragraph-color);
+    font-size: 18px;
+
+}
+footer .footer_contant .footer_menu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 25px;
+    color: var(--paragraph-color);
+    text-transform: capitalize;
+    transition: .5s;
+}
+footer .footer_contant .footer_logo{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    color: var(--common-white);
+    text-align: center;
+}
+footer .footer_contant .footer_menu ul li a.active {
+    color: var(--common-white);
+}
+footer .footer_contant .footer_menu ul li:hover a {
+    color: var(--common-white);
+}
+.navbar-toggler {
+    line-height: 1;
+    color: var(--common-white);
+    background-color: white;
+    border: var(--common-white);
+    font-size: 16px;
+}
+footer .footer_logo img{
+    width: 100px;
+}
+/* common css end  */
+#myNav .navigation .nav_logo img{
+    width: 150px;
+}
+#myNav .navigation ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 25px;
+    color: var(--paragraph-color);
+    text-transform: capitalize;
+    transition: .5s;
+}
+#myNav .navigation ul li a.active{
+    color: var(--common-white);
+}
+#myNav .navigation ul li:hover a{
+    color: var(--common-white);
+
+}
+#about_area{
+    margin: 50px 0 80px;
+}
+#about_area .about_me{
+    background: linear-gradient(138deg, rgba(55, 52, 52, 1) 0%, rgba(13, 11, 11, 1) 30%, rgba(0, 0, 0, 1) 91%);
+    padding: 40px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 50px rgba(21, 26, 50, 0.1);
+    transform: translateY(.9);
+    transition: .5s;
+}
+#about_area .about_me:hover{
+    transform: scale(.8);
+}
+#about_area .about_me .profile img {
+    border-radius: 135px 12px 135px 17px;
+}
+#about_area .about_me .my_info h5{
+    font-size: 16px;
+    color: var(--paragraph-color);
+}
+#about_area .about_me .my_info h1{
+    font-size: 35px;
+    color: var(--common-white);
+    text-transform: uppercase; 
+    padding: 10px 0;
+}
+#about_area .about_me .my_info p{
+    font-size: 14px;
+    color: var(--paragraph-color);
+    
+}
+#about_area .about_info .more_about_me{
+    margin: 10px;
+}
+#about_area .about_info .more_about_me h4{
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+#about_area .about_info .more_about_me h3{
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: capitalize;
+}
+#about_area .about_info .project {
+    margin: 0px;
+}
+
+#about_area .about_info .project h4 {
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+#about_area .about_info .project h3 {
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: capitalize;
+}
+#about_area .about_info .service .img img{
+    width: 70px;
+    text-align: center;
+    padding: 10px   ;
+    
+}
+#about_area .about_info .service .img{
+    
+    padding: 20px;
+}
+#about_area .about_info .social_media a i{
+    color: var(--common-white);
+    height: 60px;
+    width: 60px;
+    font-size: 50;
+    border-radius: 50%;
+    background: linear-gradient(138deg, rgba(55, 52, 52, 1) 0%, rgba(13, 11, 11, 1) 30%, rgba(0, 0, 0, 1) 91%);
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    transition: .5s;
+    margin: 5px;
+}
+#about_area .about_info .social_media a:hover i{
+    background: var(--common-white);
+    color: var(--common-black);
+}
+#about_area .about_info .exparience h2{
+    color: var(--common-white);
+    font-size: 40px;
+}
+#about_area .about_info .exparience p{
+    color: var(--paragraph-color);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+#about_area .about_info .call_to_action h3{
+    font-size: 40px;
+    color: var(--common-white);
+    color: var(--sky-blue);
+    font-weight: 600;
+}
+#about_area .about_info .call_to_action{
+    position: relative;
+}
+#about_area .about_info .call_to_action .overlyh_img{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+/*======================= about page start ===================== */
+#about_me{
+    padding: 100px 0 150px;
+}
+#about_me .about_page_profile img{
+    border-radius: 20px;
+}
+#about_me   h1{
+    color: var(--common-white);
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+#about_me .about_page_info h2{
+    color: var(--common-white);
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    padding-bottom: 20px;
+}
+#about_me .about_page_info p{
+    color: var(--paragraph-color);
+    font-size: 18px;
+
+}
+#about_me .work_experience .section_heading{
+    color: var(--common-white);
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#about_me .work_experience .section_contant{
+    padding-top: 20px;
+}
+#about_me .work_experience .section_contant h4{
+    color: var(--common-white);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#about_me .work_experience .section_contant p{
+    color: var(--paragraph-color);
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 5px 0;
+    
+}
+/* ==========================about page end========================  */
+/* ==========================contact page start========================  */
+#contact h3{
+    color: var(--common-white);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+
+}
+#contact .contact_info{
+    padding-top: 40px;
+}
+#contact .contact_info .contact_info_contant{
+    padding: 20px 0;
+}
+#contact .contact_info .contact_info_contant .box{
+
+    border-radius: 10px;
+    padding: 20px;
+}
+#contact .contact_info .contact_info_contant i{
+    font-size: 25px;
+    color: var(--common-white);
+    display: inline-block;
+    padding: 10px;
+}
+#contact .contact_info .contact_info_contant_info{
+    padding-left: 10px;
+}
+#contact .contact_info .contact_info_contant_info h4 a{
+    font-size: 16px;
+    color: var(--common-white);
+}
+#contact .contact_info .contact_info_contant_info p{
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+#contact form .input-group textarea,
+#contact form .input-group input {
+    width: 100%;
+    border: none;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 14px;
+    display: block;
+    color: var(--common-white);
+    margin: 10px 0;
+}
+#contact{
+    padding: 100px 0 200px;
+}
+#contact h1{
+    color: var(--common-white);
+    padding: 50px 0;
+    
+}
+#contact .shadow_box.box{
+    transform: scale(1);
+}
+#contact .shadow_box.box:hover{
+    transform: scale(1);
+}
+#contact .shadow_box{
+    position: relative;
+}
+#contact .shadow_box img{
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+#contact h1 span{
+    color: var(--sky-blue);
+}
+#contact form .input-group button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 16px 30px;
+    background: var(--dark);
+    color: var(--common-white);
+    font-size: 16px;
+}
+/* ==========================contact page end========================  */
+/* ==========================work page start========================  */
+#protfolio .nav_and_tab li  button{
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    transition: .5s;
+    background: none;
+    --bs-nav-pills-link-active-bg: none;
+    border-radius: 0px;
+    position: relative;
+    color: var(--paragraph-color);
+    letter-spacing: 3px;
+}
+#protfolio .nav_and_tab li button::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--common-white);
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+}
+
+#protfolio .nav_and_tab li button.active{
+    color: var(--common-white);
+    width: 100%;
+    border-bottom: -4.5px solid var(--common-white);
+}
+#protfolio ul li:hover button::before,
+#protfolio ul li button.active::before {
+    left: 0;
+    width: 100%;
+}
+#protfolio .protfolio .protfolio_thumb img{
+    border-radius: 20px;
+    height: 254px;
+    width: 380px;
+    object-fit: cover;
+    object-position: center;
+}
+#protfolio .protfolio .protfolio_info h2 a{
+    font-size: 24px;
+    color: var(--common-white);
+    text-transform: capitalize;
+    padding: 15px 0;
+
+}
+#protfolio .protfolio .protfolio_info p{
+    font-size: 16px;
+    color: var(--paragraph-color);
+    text-transform: inherit;
+}
+/* ==========================work page end========================  */
+/* ==========================offer page start========================  */
+#offer{
+    padding: 100px 0 250px;
+}
+#offer .page_profile .icon img{
+    width: 40px;
+}
+#offer .page_profile .skills{
+    padding: 10px 0 50px;
+}
+#offer h1{
+    font-size: 72px;
+    color: var(--common-white);
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#offer .page_profile .icons_name h4{
+    font-size: 20px;
+    color: var(--common-white);
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+#offer .offers.skills_offer h4{
+    text-align: center;
+    font-size: 18px;
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    padding-bottom: 15px;
+}
+#offer .offers.box{
+    transform: none;
+    width: 350px;
+    height:  322px;
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 0%, rgba(43, 37, 37, 1) 99%);
+}
+#offer .offers.skills_offer p{
+    color: var(--common-white);
+    font-size: 14px;
+}
+/* ==========================offer page end========================  */
+/* ==========================more abuot me  page start========================  */
+#more_about .fixed_box{
+    height: 650px;
+}
+#more_about .social_media img{
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#more_about .social_media a i{
+    color: var(--common-white);
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+    background: linear-gradient(138deg, rgba(55, 52, 52, 1) 0%, rgba(13, 11, 11, 1) 30%, rgba(0, 0, 0, 1) 91%);
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    transition: .8s;
+    margin: 5px;
+    text-align: center;
+}
+#more_about .social_media h4{
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 20px 0 5px;
+    font-weight: 600;
+}
+#more_about .social_media p{
+    font-size: 16px;
+    color: var(--paragraph-color);
+    padding: 0 0 20px;
+}
+#more_about .social_media .input-group a{
+    display: inline-block;
+    padding: 15px 0;
+    width: 100%;
+    background: var(--paragraph-color);
+    border-radius: 10px;
+    color: var(--common-white);
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 600;
+    transition: .5s;
+}
+#more_about .social_media .input-group:hover a{
+    background: var(--common-white);
+    color: var(--common-black);
+}
+#more_about h2{
+    color: var(--common-white);
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+#more_about p{
+    color: var(--common-white);
+    font-size: 16px;
+}
+#more_about .work_experience .section_contant h4{
+    font-size: 18px;
+    color: var(--sky-blue);
+    text-transform: capitalize;
+}
+#more_about .work_experience .section_heading h4 {
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0 10px;
+
+}
+#more_about .work_experience .section_contant{
+    padding: 10px 0;
+}
+#more_about .work_experience .section_contant p{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#more_about .section_info{
+    padding-left: 80px;
+}
+#more_about .skill_avg .section_heading h5{
+    color: var(--common-white);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+
+}
+#more_about .skill_avg .section_heading{
+    padding: 20px 0;
+}
+#more_about .skill_avg .skill_in_avg h6{
+    color: var(--common-white);
+    font-size: 22px;
+    text-transform: capitalize;
+
+
+}
+#more_about .skill_avg .skill_in_avg{
+    padding: 20px 0;
+}
+#more_about .skill_avg .skill_in_avg p{
+    color: var(--paragraph-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+/* ==========================more abuot me page end========================  */
