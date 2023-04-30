@@ -700,7 +700,7 @@
             /* work page reponsive start  */
             /* contact page responsive start  */
            #contact {
-               padding: 10px 0 100px;
+               padding: 10px 5px 100px;
            }
             #contact .social_media a i {
                 height: 30px;
@@ -724,14 +724,9 @@
             #contact .contact_info .contact_info_contant .box {
                 border-radius: 4px;
                 padding: 28px;
-                display: block;
-                margin: auto;
             }
             #contact .contact_info .contact_info_contant_info {
                 padding-left: 10px;
-                text-align: center;
-                display: block;
-                margin: auto;
             }
 
            #contact .contact_info {
@@ -739,11 +734,11 @@
                padding-bottom: 15px;
            }
            #contact .contact_info .contact_info_contant_info p {
-               font-size: 24px;
+               font-size: 12px;
                padding-top: 12px;
            }
            #contact .contact_info .contact_info_contant_info h4 a {
-               font-size: 22px;
+               font-size: 12px;
                color: var(--common-white);
            }
         
@@ -766,6 +761,10 @@
             }
            .box_contant h4 {
                font-size: 11px;
+           }
+           #contact .contact_info .contact_info_contant .box {
+               border-radius: 4px;
+               padding: 12px;
            }
         
             /* contact page responsive end  */
